@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gemspec
 
 platforms :ruby do
-  gem 'sqlite3'
-  gem 'mysql2', "< 0.4.0"
-  gem 'pg', "0.21.0"
+  gem "sqlite3"
+  gem "mysql2", "< 1.0.0"
+  gem "pg", "< 2.0.0"
 end
 
 # Add Oracle Adapters
