@@ -20,6 +20,7 @@ load(File.join(plugin_test_dir, "db", "schema.rb"))
 
 require 'awesome_nested_set'
 require 'support/models'
+require 'support/sql_assertions'
 
 begin
   require 'action_view'
